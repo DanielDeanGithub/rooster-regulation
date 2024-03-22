@@ -7,6 +7,9 @@ describe('Rooster', () => {
             // (Setup) Define expected output
             const expected = 'cock-a-doodle-doo!';
 
+            // (Exercise) Call Rooster.announceDawn and store result in variable
+            const result = Rooster.announceDawn();
+
 
         });
     });

@@ -10,7 +10,8 @@ describe('Rooster', () => {
             // (Exercise) Call Rooster.announceDawn and store result in variable
             const result = Rooster.announceDawn();
 
-
+            // (Verify) Use an assert method to compare actual and expected result
+            assert.equal(result, expected);
         });
     });
 });

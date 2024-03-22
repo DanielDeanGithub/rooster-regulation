@@ -17,6 +17,10 @@ describe('Rooster', () => {
 
     describe('.timeAtDawn', () => {
         it('returns its argument as a string', () => { 
+            // (Setup) Define expected output
+            const inputNumber = 5;
+            const expected = '5';
+
 
         });
     });

@@ -24,7 +24,8 @@ describe('Rooster', () => {
             // (Exercise) Call Rooster.timeAtDawn and store result in variable
             const result = Rooster.timeAtDawn(inputNumber);
 
-
+            // (Verify) Use an assert method to compare actual and expected result
+            assert.strictEqual(result, expected);
         });
     });
 });

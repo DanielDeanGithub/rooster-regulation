@@ -14,4 +14,8 @@ describe('Rooster', () => {
             assert.equal(result, expected);
         });
     });
+
+    describe('.timeAtDawn', () => {
+
+    });
 });

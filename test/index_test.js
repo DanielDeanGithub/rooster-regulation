@@ -16,6 +16,8 @@ describe('Rooster', () => {
     });
 
     describe('.timeAtDawn', () => {
+        it('returns its argument as a string', () => { 
 
+        });
     });
 });

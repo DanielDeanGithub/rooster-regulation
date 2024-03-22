@@ -21,6 +21,9 @@ describe('Rooster', () => {
             const inputNumber = 5;
             const expected = '5';
 
+            // (Exercise) Call Rooster.timeAtDawn and store result in variable
+            const result = Rooster.timeAtDawn(inputNumber);
+
 
         });
     });

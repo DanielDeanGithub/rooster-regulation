@@ -35,6 +35,10 @@ describe('Rooster', () => {
             const inputNumber = -1;
             const expected = RangeError;
 
+            // (Verify) Use an assert method to compare actual and expected result
+            assert.throws(() => {
+                Rooster.timeAtDawn(inputNumber); // (Exercise) Call Rooster.timeAtDawn and store result in variable
+            }, expected);
         });
     });
 });

@@ -31,6 +31,9 @@ describe('Rooster', () => {
 
     describe('.timeAtDawn', () => {
         it('throws an error if passed a number less than 0', () => { 
+            // (Setup) Define expected output
+            const inputNumber = -1;
+            const expected = RangeError;
 
         });
     });

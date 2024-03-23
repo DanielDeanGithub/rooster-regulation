@@ -30,6 +30,8 @@ describe('Rooster', () => {
     });
 
     describe('.timeAtDawn', () => {
+        it('throws an error if passed a number less than 0', () => { 
 
+        });
     });
 });

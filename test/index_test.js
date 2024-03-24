@@ -44,6 +44,9 @@ describe('Rooster', () => {
 
     describe('.timeAtDawn', () => {
         it('throws an error if passed a number greater than 23', () => { 
+            // (Setup) Define expected output
+            const inputNumber = 24;
+            const expected = RangeError;
 
         });
     });

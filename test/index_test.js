@@ -41,4 +41,8 @@ describe('Rooster', () => {
             }, expected);
         });
     });
+
+    describe('.timeAtDawn', () => {
+
+    });
 });
